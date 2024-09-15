@@ -9,6 +9,8 @@ let  url = "https://coffee.alexflipnote.dev/random.json"
         container.innerHTML = '';  
         let imgElement = document.createElement('img');
         imgElement.src = img;
+        imgElement.alt = "Random Coffee Image";
+        imgElement.classList.add('image');
         container.appendChild(imgElement);
     }   
     ) 
